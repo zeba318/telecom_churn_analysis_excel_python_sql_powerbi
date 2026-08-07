@@ -2,7 +2,6 @@
 > *Telecom Customer Churn Analysis*
 
 ## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
 - [ ] Exploratory Data Analysis (EDA)
 - [ ] SQL Analysis / Querying
@@ -40,48 +39,25 @@
 
  the objective is to uncover churn patterns, measures key performance indicators (KPIS) and provide data-driven recommendations to help improve customer retention and support informed business decisions.
 
-## 3. Project Scope & Tools
+## 3. Dataset info & Tools
 
-### Scope
+Name: Telecom Customer Churn
+Source: Kaggle
+No. of Rows: 7043
+No. of Columns : 21 
+Type: Customers Demographics, Service usage like Subscription, Billing info, Churn Status.
+Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the Telecom Service.
 
-<!--
-  WHAT GOOD LOOKS LIKE:
-  In Scope: "Transaction-level data for Regions A–E, Jan 2023–Jun 2024.
-             Analysis covers revenue, return rates, and product category performance."
-  Out of Scope: "Customer demographics and marketing spend data were excluded -
-                 demographic data was incomplete for two regions, and marketing
-                 data sits in a separate system outside this engagement."
+### Tools & Technologies 
 
-  WHAT TO AVOID:
-  ❌ Leaving Out of Scope blank. This is the section that protects your credibility.
-     If you don't define the fence, reviewers assume you missed things.
--->
-
-| Dimension | Details |
-|-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
-
-### Tools & Technologies
-
-<!--
-  List only what you actually used on this project.
-  This is not your skills section - it's the project's technical context.
--->
-
-| Category | Tool(s) Used |
-|----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
-
----
+ Tool(s) Used 
+ Excel, Python, SQL, Power BI
+   
+ Excel: Conducted initial data inspection and verified the dataset before analysis.
+ Python: Data cleaning, Preprocessing and Performed (EDA).
+ SQL: Data querying, aggregation, Group by and performed business Analysis.
+ Power BI: Interactive Dashboard Creation and KPI cards Visualization.
+ 
 
 ## 4. Repository Structure
 
@@ -119,39 +95,14 @@
 
 ## 5. Data Workflow
 
-<!--
-  Show how data moved through your project - from source to output.
-  Every transformation decision should be traceable here.
-
-  WHAT GOOD LOOKS LIKE:
-  1. Source: "Monthly CSV exports pulled from the internal POS system.
-              Five files, one per region, covering Jan 2023–Jun 2024."
-  2. Ingestion: "Loaded into Python using pandas. Files concatenated into
-                 a single dataframe (approx. 340,000 rows)."
-  3. Cleaning: "Removed 1.2% of rows with null transaction IDs.
-                Standardised date formats across regional files.
-                Resolved product category naming inconsistencies (3 variants → 1)."
-  4. Transformation: "Created a returns_rate field at product-category level.
-                      Aggregated to weekly and regional grain for trend analysis."
+  1. Source: "Collected the Telecom churn Dataset from Kaggle "
+  2. Ingestion: "Loaded into Python using pandas, NumPy, Seaborn, Matplotlib."
+  3. Cleaning: "Preprocessing and performed (EDA) to clean the Dataset."
+  4. Transformation: "Created aggregation query ."
   5. Analysis: "Descriptive statistics, regional comparison, return rate
                 segmentation by product category."
   6. Output: "Summary report (PDF), annotated notebook, processed CSV."
 
-  WHAT TO AVOID:
-  ❌ "Data was cleaned and analysed." (No chain. No decisions. No trust.)
--->
-
-```
-[Data Source(s)]
-      ↓
-[Ingestion / Collection Method]
-      ↓
-[Cleaning & Transformation]
-      ↓
-[Analysis / Modelling / Querying]
-      ↓
-[Output / Visualisation / Reporting]
-```
 
 1. **Source:** [Where did the data come from? Format, size, access method.]
 2. **Ingestion:** [How was it brought in?]
@@ -464,14 +415,12 @@ erDiagram
 
 ## 14. Author
 
-**[Your Name]**
-[Your role or title - current or target]
+**[Zeba Hajera]**
+[Data Analyst]
 
-- 🔗 [LinkedIn URL]
+- 🔗 [   ]
 - 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
+- 📧 [zebahajera715@gmail.com]
 
 ---
 
-*Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
