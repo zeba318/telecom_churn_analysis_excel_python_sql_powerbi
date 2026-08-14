@@ -67,11 +67,9 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 ├── data/
 │   ├── raw/                  # Original, unmodified source data - never edited
 │   ├── processed/            # Cleaned and transformed data
-│   └── external/             # Reference data, lookup tables, third-party files
-│
+             
 ├── notebooks/                # Jupyter, R Markdown, or Colab notebooks
 │
-├── scripts/                  # Reusable .py, .R, or .sh processing files
 │
 ├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
 │   ├── exploratory/          # Ad-hoc or investigative queries
@@ -115,42 +113,26 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 
 ## 6. Data Model & Schema
 
-<!--
-  Define your fields so that someone reading your analysis can follow along
-  without digging through your code.
-
-  WHAT GOOD LOOKS LIKE (one row example):
-  | transaction_id | string | Unique identifier per sales transaction | TXN-00482 |
-  | return_flag    | boolean | Whether the transaction included a return | TRUE |
-  | region_code    | string | Two-letter identifier for store region | "NE" |
-
-  WHAT TO AVOID:
-  ❌ Skipping this section because "the field names are self-explanatory."
-     They're not. Not to a reviewer. Not to you in six months.
-
-  📌 FOR SQL PROJECTS: If you have multiple tables, create one block per table.
-     Describe join keys and relationships here. Your ERD (Section 7) will
-     visualise what this section describes in text.
-
-  📌 FOR NON-SQL PROJECTS: Describe the shape of your dataset informally
-     if a formal schema doesn't apply. Even one paragraph is more helpful than nothing.
--->
 
 ### Dataset / Table: `[name]`
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `[field_1]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_2]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| [fi] | [string / int / date / float / boolean] | [Wha] | [No] |
+| [fi2] | [string / int / date / float / boolean] | [Wha] | [Noe] |
+| [fi] | [string / int / date / float / boolean] | [Wh] | [Noe] |
 
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
 
-*Add additional table blocks as needed for multi-table projects.*
 
----
+
+
+
+
+
+
+
+
+
 
 ## 7. ERD - Entity Relationship Diagram
 ### *(Primarily for SQL Projects - remove this section if not applicable)*
