@@ -118,21 +118,27 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 
 | Field Name | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| [fi] | [string / int / date / float / boolean] | [Wha] | [No] |
-| [fi2] | [string / int / date / float / boolean] | [Wha] | [Noe] |
-| [fi] | [string / int / date / float / boolean] | [Wh] | [Noe] |
-
-
-
-
-
-
-
-
-
-
-
-
+| [Customer id] | [string / Text] | [Unique identifier assigned to each customer.] | [7590-VHVEU] |
+| [gender] | [string / Text] | [gender of the customer.] | [Female] |
+| [Senior Citizen] | [int] | [Indicates whether the customer is a senior citizen.1=Yes, 0=No.] | [0] |
+| [Partner] | [string / Text] | [Indicates whether the customer has a partner.] | [Yes] |
+| [Dependents] | [string / Text] | [Indicates whether the customer has dependents.]  | [No] |
+| [tenure] | [integer] | [Number of months the customer has been with the telecom company.] | [1] |
+| [Phone Service] | [string / Text] | [indicates whether the customer has phone service.] | [No] |
+| [Multiple Lines] | [string / Text] | [indicates whether the customer has multiple phone lines.] | [No phone Service] |
+| [Internet Service] | [string / Text] | [Type of internet service used by the customer.] | [DSL] |
+| [Online Security] | [string / Text] | [] | [] |
+| [Online Backup] ||||
+| [Device Protection] ||||
+| [Tech Support] ||||
+| [Streaming TV] ||||
+| [Streaming Movies] ||||
+| [Contract] ||||
+| [Paperless Billing] ||||
+| [Payment Method] ||||
+| [Monthly Charges] ||||
+| [Total Charges] ||||
+| [Churn] ||||
 
 ## 7. ERD - Entity Relationship Diagram
 ### *(Primarily for SQL Projects - remove this section if not applicable)*
