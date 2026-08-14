@@ -127,18 +127,18 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 | [Phone Service] | [string / Text] | [indicates whether the customer has phone service.] | [No] |
 | [Multiple Lines] | [string / Text] | [indicates whether the customer has multiple phone lines.] | [No phone Service] |
 | [Internet Service] | [string / Text] | [Type of internet service used by the customer.] | [DSL] |
-| [Online Security] | [string / Text] | [] | [] |
-| [Online Backup] ||||
-| [Device Protection] ||||
-| [Tech Support] ||||
-| [Streaming TV] ||||
-| [Streaming Movies] ||||
-| [Contract] ||||
-| [Paperless Billing] ||||
-| [Payment Method] ||||
-| [Monthly Charges] ||||
-| [Total Charges] ||||
-| [Churn] ||||
+| [Online Security] | [string / Text] | [indicates whether the customer has security service.] | [No] |
+| [Online Backup] | [string / Text] | [indicates whether the customer has online backup service.] | [Yes] |
+| [Device Protection] [string / Text] |[indicates whether the customer has device protection service.] | [No] |
+| [Tech Support] | [string / Text] | [indicates whether the customer has technical support service.] | [No] |
+| [Streaming TV] | [string / Text] | [indicates whether the customer uses streaming TV service.] | [No] |
+| [Streaming Movies] | [string / Text] | [indicates whether the customer uses streaming movie service.] | [No]|
+| [Contract] | [string / Text] | [Type of contract selected by the customer.] | [Month-to-Month] |
+| [Paperless Billing] | [string / Text] | [indicates whether the customer uses paperless billing] | [Yes] |
+| [Payment Method] | [string / Text] | [payment method used by the customer.] | [Electronic check] |
+| [Monthly Charges] | [Decimal / Float] | [Monthly amount charged to the customer.] | [29.85] |
+| [Total Charges] | [Decimal / Float] | [Total amount charged to the customer during their tenure.] | [29.85] |
+| [Churn] | [string / Text] | [indicates whether the customer left the company.] | [No] |
 
 ## 7. ERD - Entity Relationship Diagram
 ### *(Primarily for SQL Projects - remove this section if not applicable)*
