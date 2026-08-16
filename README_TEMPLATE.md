@@ -1,6 +1,7 @@
 # [Project Title]
-> *Telecom Customer Churn Analysis*
+> Telecom Customer Churn Analysis
 
+---
 ## ⚙️ Project Type Flags
 
 - [ ] Exploratory Data Analysis (EDA)
@@ -15,18 +16,16 @@
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Objectives](#2-objectives)
-3. [Project Scope & Tools](#3-project-scope--tools)
+3. [Dataset info & Tools](#3-Datasett-info--tools)
 4. [Repository Structure](#4-repository-structure)
-5. [Data Workflow](#5-data-workflow)
-6. [Data Model & Schema](#6-data-model--schema)
-7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) *(SQL projects)*
-8. [Analysis & Metrics](#8-analysis--metrics)
-9. [Key Insights](#9-key-insights)
-10. [Recommendations](#10-recommendations)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
+5. [Project Workflow](#5-Project-workflow)
+6. [Datamodel and schema](#6-datasmodel-and-schema)
+7. [Analysis & Metrics](#7-analysis--metrics)
+8. [Key Insights](#8-key-insights)
+9. [Recommendations](#9-recommendations)
+10. [Future Enhancements](#10-future-enhancements)
+11. [Conclusions](#11-Conclusions)
+12. [Author](#12-author)
 
 ----
 
@@ -39,6 +38,7 @@
 
  the objective is to uncover churn patterns, measures key performance indicators (KPIS) and provide data-driven recommendations to help improve customer retention and support informed business decisions.
 
+---
 ## 3. Dataset info & Tools
 
 Name: Telecom Customer Churn
@@ -96,17 +96,16 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
   6. Output: "Summary report (PDF), annotated notebook, processed CSV."
 
 
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
+1. Source: [Where did the data come from? Format, size, access method.]
+2. Ingestion: [How was it brought in?]
+3. Cleaning: [What issues did you find and fix?]
+4. Transformation: [What new fields, aggregations, or structures did you create?]
+5. Analysis: [What methods - statistical, visual, query-based, model-based?]
+6. Output: [What form do the results take?]
 
 
 ---
 ## 6. Data Model & Schema
-
 
 ### Dataset / Table: `[name]`
 
@@ -136,7 +135,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 
 ---
 
-## 8. Analysis & Metrics
+## 7. Analysis & Metrics
 
 1.Analyzed the overall customer churn and Retention rate.
 2.Analyzed churn patterns across different telecom partners.
@@ -157,9 +156,9 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
  [phone service affects the customer churn rate] [online security affects the customer churn] [online backup affects the customer churn]
  [Device protection affects customer churn] [Tech support affects customer churn] [which streaming service has highest customer churn rate]
  [which payment method has highest customer churn rate] 
----
  
-## 9. Key Insights
+---
+## 8. Key Insights
   
 
 Insight 1: [ % of Customers churned, while % were Retained.]
@@ -172,8 +171,7 @@ Insight 7 :[the findings indicates that affordable long-term plans and targeted 
 Insight 8: [the Power BI dashboard provides a centralized view of churn and Retention patterns, helping management make data-driven decisions.]
  
 ---
-
-## 10. Recommendations
+## 9. Recommendations
 
   1.Introduce 6-month contract plans with attractive pricing and Benefits to encourage customers to move from short-term contracts and reduce churn.
   2.Focus on DSL internet customers by providing targeted offers and improved service packages to increase customer retention.
@@ -181,9 +179,8 @@ Insight 8: [the Power BI dashboard provides a centralized view of churn and Rete
   4.Introduce affordable DSL plans to attract new customers and make the service more competitive.
   5.provide targeted retention offers to customers who are at higher risk of churning based on their service usage and contract type.
 
-
 --- 
-## 12. Future Enhancements
+## 10. Future Enhancements
 
 - [ ] [Enhancement 1 - create a customer segmentation model based on contract type, services, tenure, and monthly charges.  ]
 - [ ] [Enhancement 2 - Add Real-time Customer data to monitor churn trends continuously. ]
@@ -193,20 +190,20 @@ Insight 8: [the Power BI dashboard provides a centralized view of churn and Rete
 - [ ] [Enhancement 6- integrate data from multiple sources such as customer service, Billing, usage, and complaints for more comprehensive churn analysis.]
 
 ----
-## 13. Conclusions
+## 11. Conclusions
 
 The Telecom churn Analysis Project Successfully analyzed customer rate, retention rate, and the services used by customers, including online security, onlinebackup,
 Device protection, Tech support, and phone services. the project also focused on predicting customer churn using python, SQL, and Power BI. I cleaned and analyzed the data using EDA in python, performed business analysis using SQL, and created an interactive Power BI Dashboard to Visualize customer churn and identify 
 data-driven insights. the insights and recommendations from this project can help improve customer retention, reduce churn, and increase overall customer satisfaction.
 
- --- 
-## 14. Author
+--- 
+## 12. Author
 
 **[Zeba Hajera]**
 [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
-- 💼 [https://github.com/zeba318/telecom_churn_analysis_excel_python_sql_powerbi/blob/main/README_TEMPLATE.md]
+- 💼 [  ]
 - 📧 [zebahajera715@gmail.com]
 ----
 
