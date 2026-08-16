@@ -150,10 +150,13 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 10.Developed an interactive Power BI dashboard to monitor churn KPIS, customer segments, and churn trends.
 
 ### Key Metrics Defined
- []
-
-
-
+ [No. of churn and Retention customers] [Total Customer churn rate] [percentage of customer of Retention rate] [churn rate among seniorcitizen and non seniorcitizen]
+ [customer churn rate differ by gender] [which gender has highest total monthly charges among churned customers] [which contract type has highest No. of customers]
+ [which contract type has highest No. of churn rate] [which tenure group has highest no. of customers] [How customer tenure differ between churn and retention]
+ [which internet service type has the highest customer churn rate] [churn rate among customers with and without multiple lines] 
+ [phone service affects the customer churn rate] [online security affects the customer churn] [online backup affects the customer churn]
+ [Device protection affects customer churn] [Tech support affects customer churn] [which streaming service has highest customer churn rate]
+ [which payment method has highest customer churn rate] 
 ---
  
 ## 9. Key Insights
