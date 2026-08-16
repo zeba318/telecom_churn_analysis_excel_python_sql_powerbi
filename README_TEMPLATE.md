@@ -28,7 +28,7 @@
 13. [Deliverables](#13-deliverables)
 14. [Author](#14-author)
 
-
+----
 
 ## 1. Project Overview
 
