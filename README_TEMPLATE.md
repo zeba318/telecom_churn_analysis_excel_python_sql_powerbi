@@ -34,7 +34,7 @@
 
  This Project Analyzes a telecom customer churn dataset to identify factors influencing customer attrition and evaluate overall customer retention performance the project include data cleaning, preprocessing and exploratory data analysis (EDA) using python followed by SQL-based data analysis and an interactive power bi dashboard for business reporting. 
 
-
+----
 ## 2. Objectives
 
  the objective is to uncover churn patterns, measures key performance indicators (KPIS) and provide data-driven recommendations to help improve customer retention and support informed business decisions.
@@ -58,7 +58,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
  SQL: Data querying, aggregation, Group by and performed business Analysis.
  Power BI: Interactive Dashboard Creation and KPI cards Visualization.
  
-
+----
 ## 4. Repository Structure
 
 [project-root]/
@@ -84,7 +84,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 ├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
 `
-
+ ----
 ## 5. project  Workflow
 
   1. Source: "Collected the Telecom churn Dataset from Kaggle "
@@ -104,7 +104,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 6. **Output:** [What form do the results take?]
 
 
-
+---
 ## 6. Data Model & Schema
 
 
@@ -134,7 +134,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 | [Total Charges] | [Decimal / Float] | [Total amount charged to the customer during their tenure.] | [29.85] |
 | [Churn] | [string / Text] | [indicates whether the customer left the company.] | [No] |
 
-
+---
 
 ## 8. Analysis & Metrics
 
@@ -154,7 +154,8 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 
 
 
-
+---
+ 
 ## 9. Key Insights
   
 
@@ -166,7 +167,8 @@ Insight 5 : [the analysis identified high-risk customer. segments that require t
 Insight 6 : [Additional services such as online security and online backup can be used as Retention opportunities to increase customer engagement.]
 Insight 7 :[the findings indicates that affordable long-term plans and targeted offers could help reduce customer churn.]
 Insight 8: [the Power BI dashboard provides a centralized view of churn and Retention patterns, helping management make data-driven decisions.]
-
+ 
+---
 
 ## 10. Recommendations
 
@@ -177,6 +179,7 @@ Insight 8: [the Power BI dashboard provides a centralized view of churn and Rete
   5.provide targeted retention offers to customers who are at higher risk of churning based on their service usage and contract type.
 
 
+--- 
 ## 12. Future Enhancements
 
 - [ ] [Enhancement 1 - create a customer segmentation model based on contract type, services, tenure, and monthly charges.  ]
@@ -186,12 +189,14 @@ Insight 8: [the Power BI dashboard provides a centralized view of churn and Rete
 - [ ] [Enhancement 5- Analyze customer feedback and complaints using sentiments analysis to identify reasons for dissatisfaction.]
 - [ ] [Enhancement 6- integrate data from multiple sources such as customer service, Billing, usage, and complaints for more comprehensive churn analysis.]
 
+----
 ## 13. Conclusions
 
 The Telecom churn Analysis Project Successfully analyzed customer rate, retention rate, and the services used by customers, including online security, onlinebackup,
 Device protection, Tech support, and phone services. the project also focused on predicting customer churn using python, SQL, and Power BI. I cleaned and analyzed the data using EDA in python, performed business analysis using SQL, and created an interactive Power BI Dashboard to Visualize customer churn and identify 
 data-driven insights. the insights and recommendations from this project can help improve customer retention, reduce churn, and increase overall customer satisfaction.
 
+ --- 
 ## 14. Author
 
 **[Zeba Hajera]**
@@ -200,6 +205,6 @@ data-driven insights. the insights and recommendations from this project can hel
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
 - 💼 [https://github.com/zeba318/telecom_churn_analysis_excel_python_sql_powerbi/blob/main/README_TEMPLATE.md]
 - 📧 [zebahajera715@gmail.com]
-
+----
 
 
