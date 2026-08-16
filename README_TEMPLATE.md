@@ -79,8 +79,6 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 │
 ├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
 │
-├── docs/                     # Data dictionaries, schema notes, reference material
-│
 ├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
 `
@@ -161,7 +159,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 ## 8. Key Insights
   
 
-Insight 1: [ % of Customers churned, while % were Retained.]
+Insight 1: [26 % of Customers churned, while 74% were Retained.]
 Insight 2: [Customers on month-to-month contracts showed higher churn, indicating that short-term contracts have a higher retention risk.]
 Insight 3: [DSL internet service Customer showed higher churn, making this an important customer segment for retention strategies.]
 Insight 4 : [Customer with long-term contracts were more likely to remain with the company compared with short-term contract customers.]
