@@ -28,7 +28,7 @@
 13. [Deliverables](#13-deliverables)
 14. [Author](#14-author)
 
----
+
 
 ## 1. Project Overview
 
@@ -103,7 +103,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
 6. **Output:** [What form do the results take?]
 
----
+
 
 ## 6. Data Model & Schema
 
@@ -197,9 +197,9 @@ data-driven insights. the insights and recommendations from this project can hel
 **[Zeba Hajera]**
 [Data Analyst]
 
-- 🔗 [   ]
+- 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
 - 💼 [https://github.com/zeba318/telecom_churn_analysis_excel_python_sql_powerbi/blob/main/README_TEMPLATE.md]
 - 📧 [zebahajera715@gmail.com]
 
----
+
 
