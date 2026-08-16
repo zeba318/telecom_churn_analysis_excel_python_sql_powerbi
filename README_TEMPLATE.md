@@ -43,7 +43,7 @@
 
 Name: Telecom Customer Churn
 Source: Kaggle
-No. of Rows: 7043
+No. of Rows: 7000
 No. of Columns : 21 
 Type: Customers Demographics, Service usage like Subscription, Billing info, Churn Status.
 Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the Telecom Service.
@@ -61,18 +61,17 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 
 ## 4. Repository Structure
 
-```
 [project-root]/
 │
 ├── data/
 │   ├── raw/                  # Original, unmodified source data - never edited
 │   ├── processed/            # Cleaned and transformed data
              
-├── notebooks/                # Jupyter, R Markdown, or Colab notebooks
+├── notebooks/                # Jupyter,  notebooks
 │
 │
 ├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
-│   ├── exploratory/          # Ad-hoc or investigative queries
+│   ├── exploratory/        
 │   ├── transformations/      # Cleaning and reshaping logic
 │   └── final/                # Production-ready or presentation queries
 │
@@ -84,12 +83,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 │
 ├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
-```
-
-> ⚠️ *Delete folders you didn't use. An empty folder is worse than no folder.*
-> SQL-heavy projects: keep `queries/`. Analysis-only projects: keep `notebooks/`. Both? Keep both.
-
----
+`
 
 ## 5. project  Workflow
 
@@ -144,42 +138,34 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 
 ## 8. Analysis & Metrics
 
-
-
-### Analytical Approach
-
-[Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
+1.Analyzed the overall customer churn and Retention rate.
+2.Analyzed churn patterns across different telecom partners.
+3.Analyzed the impact of monthly charges and total charges on customer churn.
+4.Analyzed the churn rate among senior citizens.
+5.Analyzed the which contract type has a high churn rate.
+6.Analyzed the which service type has a higher churn rate.
+7.Analyzed the which streaming service has higher churn rate.
+8.Analyzed which payment method has highest customer churn rate.
+9.Identified Customer segment with higher churn rates and analyzed their characteristics.
+10.Developed an interactive Power BI dashboard to monitor churn KPIS, customer segments, and churn trends.
 
 ### Key Metrics Defined
+ []
 
-| Metric | Plain-Language Definition | Why It Matters |
-|--------|--------------------------|----------------|
-| `[Metric 1]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 2]` | [What it measures, in one sentence] | [What decision or question it answers] |
-| `[Metric 3]` | [What it measures, in one sentence] | [What decision or question it answers] |
 
-### Methods Used
 
-- [e.g., Descriptive statistics - distribution, central tendency, outlier detection]
-- [e.g., Trend analysis across [time period]]
-- [e.g., Segmentation / group comparison by [dimension]]
-- [e.g., Correlation analysis between [variable A] and [variable B]]
-- [e.g., SQL window functions for [specific aggregation]]
-- [e.g., Custom aggregation or transformation logic in [tool]]
-
----
 
 ## 9. Key Insights
   
 
-**Insight 1: [ % of Customers churned, while % were Retained.]
-**Insight 2: [Customers on month-to-month contracts showed higher churn, indicating that short-term contracts have a higher retention risk.]
-**Insight 3: [DSL internet service Customer showed higher churn, making this an important customer segment for retention strategies.]
-**Insight 4 : [Customer with long-term contracts were more likely to remain with the company compared with short-term contract customers.]
-**Insight 5 : [the analysis identified high-risk customer. segments that require targeted Retention strategies.]
-**Insight 6 : [Additional services such as online security and online backup can be used as Retention opportunities to increase customer engagement.]
-**Insight 7 :[the findings indicates that affordable long-term plans and targeted offers could help reduce customer churn.]
-**Insight 8: [the Power BI dashboard provides a centralized view of churn and Retention patterns, helping management make data-driven decisions.]
+Insight 1: [ % of Customers churned, while % were Retained.]
+Insight 2: [Customers on month-to-month contracts showed higher churn, indicating that short-term contracts have a higher retention risk.]
+Insight 3: [DSL internet service Customer showed higher churn, making this an important customer segment for retention strategies.]
+Insight 4 : [Customer with long-term contracts were more likely to remain with the company compared with short-term contract customers.]
+Insight 5 : [the analysis identified high-risk customer. segments that require targeted Retention strategies.]
+Insight 6 : [Additional services such as online security and online backup can be used as Retention opportunities to increase customer engagement.]
+Insight 7 :[the findings indicates that affordable long-term plans and targeted offers could help reduce customer churn.]
+Insight 8: [the Power BI dashboard provides a centralized view of churn and Retention patterns, helping management make data-driven decisions.]
 
 
 ## 10. Recommendations
