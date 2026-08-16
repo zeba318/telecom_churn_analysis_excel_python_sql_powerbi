@@ -198,7 +198,7 @@ data-driven insights. the insights and recommendations from this project can hel
 [Data Analyst]
 
 - 🔗 [   ]
-- 💼 [Portfolio or GitHub profile URL]
+- 💼 [https://github.com/zeba318/telecom_churn_analysis_excel_python_sql_powerbi/blob/main/README_TEMPLATE.md]
 - 📧 [zebahajera715@gmail.com]
 
 ---
