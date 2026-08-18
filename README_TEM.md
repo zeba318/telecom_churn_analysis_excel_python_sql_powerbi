@@ -16,10 +16,10 @@
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Objectives](#2-objectives)
-3. [Dataset info & Tools](#3-Datasett-info--tools)
+3. [Dataset info & Tools](#3-Dataset-info--tools)
 4. [Repository Structure](#4-repository-structure)
 5. [Project Workflow](#5-Project-workflow)
-6. [Datamodel and schema](#6-datasmodel-and-schema)
+6. [Datamodel and schema](#6-datamodel-and-schema)
 7. [Analysis & Metrics](#7-analysis--metrics)
 8. [Key Insights](#8-key-insights)
 9. [Recommendations](#9-recommendations)
@@ -31,7 +31,9 @@
 
 ## 1. Project Overview
 
- This Project Analyzes a telecom customer churn dataset to identify factors influencing customer attrition and evaluate overall customer retention performance the project include data cleaning, preprocessing and exploratory data analysis (EDA) using python followed by SQL-based data analysis and an interactive power bi dashboard for business reporting. 
+This Project Analyzes a telecom customer churn dataset to identify factors influencing customer attrition and evaluate overall customer retention performance the project includes data cleaning, preprocessing and exploratory data analysis (EDA) using python followed by SQL-based data analysis and an interactive power bi dashboard for business reporting. 
+
+Problem statement: the Telecom Company is Experiencing Customer churn but lack clear insights into why customers are leaving. the Business needs to Analyze customer Demographic, service usage patterns, and billing information to identify factors contributing to churn and improve customer Retention.    
 
 ----
 ## 2. Objectives
@@ -78,7 +80,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 ├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
 │
 └── README.md                 # You are here
-`
+
  ----
 ## 5. project  Workflow
 
@@ -89,7 +91,6 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
   5. Analysis: "Descriptive statistics, regional comparison, return rate
                 segmentation by product category."
   6. Output: "Summary report (PDF), annotated notebook, processed csv".
-
 
 ---
 ## 6. Data Model & Schema
@@ -120,8 +121,8 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 | [Total Charges] | [Decimal / Float] | [Total amount charged to the customer during their tenure.] | [29.85] |
 | [Churn] | [string / Text] | [indicates whether the customer left the company.] | [No] |
 
----
 
+---
 ## 7. Analysis & Metrics
 
 1.Analyzed the overall customer churn and Retention rate.
@@ -147,7 +148,6 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 ---
 ## 8. Key Insights
   
-
 Insight 1: [26 % of Customers churned, while 74% were Retained.]
 Insight 2: [Customers on month-to-month contracts showed higher churn, indicating that short-term contracts have a higher retention risk.]
 Insight 3: [DSL internet service Customer showed higher churn, making this an important customer segment for retention strategies.]
@@ -186,7 +186,7 @@ data-driven insights. the insights and recommendations from this project can hel
 --- 
 ## 12. Author
 
-**[Zeba Hajera]**
+[Zeba Hajera]
     [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
