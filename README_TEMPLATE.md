@@ -88,15 +88,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
   4. Transformation: "Created aggregation query ."
   5. Analysis: "Descriptive statistics, regional comparison, return rate
                 segmentation by product category."
-  6. Output: "Summary report (PDF), annotated notebook, processed CSV."
-
-
-1. Source: [Where did the data come from? Format, size, access method.]
-2. Ingestion: [How was it brought in?]
-3. Cleaning: [What issues did you find and fix?]
-4. Transformation: [What new fields, aggregations, or structures did you create?]
-5. Analysis: [What methods - statistical, visual, query-based, model-based?]
-6. Output: [What form do the results take?]
+  6. Output: "Summary report (PDF), annotated notebook, processed csv".
 
 
 ---
@@ -195,7 +187,7 @@ data-driven insights. the insights and recommendations from this project can hel
 ## 12. Author
 
 **[Zeba Hajera]**
-   [Data Analyst]
+    [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
 - 💼 [https://github.com/zeba318]
