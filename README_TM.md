@@ -73,7 +73,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 │
 │
 ├── queries/                  # SQL files 
-│   ├── transformation/          # presentation quesries                                             
+│   ├── transformation/       # presentation quesries                                             
 │
 ├── reports/                  # Final outputs: PDFs, slide decks, Word docs
 │
@@ -186,8 +186,8 @@ data-driven insights. the insights and recommendations from this project can hel
 --- 
 ## 12. Author
 
-[Zeba Hajera]
-    [Data Analyst]
+ [Zeba Hajera]
+      [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
 - 💼 [https://github.com/zeba318]
