@@ -71,7 +71,7 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 │
 │
 ├── queries/                  # SQL files 
-│   ├── exploratory/          # presentation quesries                                             
+│   ├── transformation/          # presentation quesries                                             
 │
 ├── reports/                  # Final outputs: PDFs, slide decks, Word docs
 │
