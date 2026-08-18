@@ -36,7 +36,7 @@
 ----
 ## 2. Objectives
 
- the objective is to uncover churn patterns, measures key performance indicators (KPIS) and provide data-driven recommendations to help improve customer retention and support informed business decisions.
+the objective is to uncover churn patterns, measures key performance indicators (KPIS) and provide data-driven recommendations to help improve customer retention and support informed business decisions.
 
 ---
 ## 3. Dataset info & Tools
@@ -64,22 +64,19 @@ Target Variables: Churn (Yes/No) Indicating Whether a Customer Discontinued the 
 [project-root]/
 │
 ├── data/
-│   ├── raw/                  # Original, unmodified source data - never edited
-│   ├── processed/            # Cleaned and transformed data
-             
+│   ├── raw/                  # Original, unmodified source data - never edited 
+|   ├── processed/            # cleaned and tranformed data  
+|                                       
 ├── notebooks/                # Jupyter,  notebooks
 │
 │
-├── queries/                  # SQL files (retain this folder for SQL-heavy projects)
-│   ├── exploratory/        
-│   ├── transformations/      # Cleaning and reshaping logic
-│   └── final/                # Production-ready or presentation queries
+├── queries/                  # SQL files 
+│   ├── exploratory/          # presentation quesries                                             
 │
 ├── reports/                  # Final outputs: PDFs, slide decks, Word docs
 │
 ├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
 │
-├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
 `
  ----
@@ -180,8 +177,8 @@ Insight 8: [the Power BI dashboard provides a centralized view of churn and Rete
 --- 
 ## 10. Future Enhancements
 
-- [ ] [Enhancement 1 - create a customer segmentation model based on contract type, services, tenure, and monthly charges.  ]
-- [ ] [Enhancement 2 - Add Real-time Customer data to monitor churn trends continuously. ]
+- [ ] [Enhancement 1 - create a customer segmentation model based on contract type, services, tenure, and monthly charges.]
+- [ ] [Enhancement 2 - Add Real-time Customer data to monitor churn trends continuously.]
 - [ ] [Enhancement 3 - Build an automated early-warning system that alerts the business when customers show high risk churn patterns.]
 - [ ] [Enhancement 4 - Compare churn and retention performance before and after implementing new 6-months plans and DSL offers.]
 - [ ] [Enhancement 5- Analyze customer feedback and complaints using sentiments analysis to identify reasons for dissatisfaction.]
@@ -198,7 +195,7 @@ data-driven insights. the insights and recommendations from this project can hel
 ## 12. Author
 
 **[Zeba Hajera]**
-[Data Analyst]
+   [Data Analyst]
 
 - 🔗 [https://www.linkedin.com/in/zeba-hajera-3a437a366?utm_source=share_via&utm_content=profile&utm_medium=member_android] 
 - 💼 [https://github.com/zeba318]
